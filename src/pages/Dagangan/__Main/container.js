@@ -8,7 +8,7 @@ const mapDispatchToProps = {
 }
 
 const mapStateToProps = state => ({
-  product: state.product
+  DAGANGAN: state.DAGANGAN
 })
 
 export default connect(
