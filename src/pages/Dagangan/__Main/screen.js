@@ -15,14 +15,14 @@ import Iconify from '../../../components/Iconify';
 
 function App() {
   return (
-    <Page title="DAGANGAN">
+    <Page title="Dagangan">
       <Container>
         <Stack direction="row" alignItems="center" justifyContent="space-between" mb={5}>
           <Typography variant="h4" gutterBottom>
-            DAGANGAN
+            Dagangan
           </Typography>
           <Button variant="contained" component={RouterLink} to="#" startIcon={<Iconify icon="eva:plus-fill" />}>
-            New DAGANGAN
+            New Dagangan
           </Button>
         </Stack>
         <Card>
